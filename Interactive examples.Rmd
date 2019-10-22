@@ -40,8 +40,17 @@ iris_graph <- ggplot(dat = iris,
 # make static graph first, then add interactive to it
 
 ggplotly(iris_graph)
+
+
 ```
 
+
+### Make an interactive table with DT
+
+```{r}
+datatable(msleep)
+
+```
 
 
 
